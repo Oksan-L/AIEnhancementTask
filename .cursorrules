@@ -1,0 +1,18 @@
+# AI Automation Rules
+
+## General Principles
+- Always use **Playwright** with the **Page Object Model (POM)** pattern.
+- All test cases must follow **ISTQB** requirements:
+  - Clear **Preconditions**
+  - Logical **Steps**
+  - Specific **Expected Results**
+
+## Code Structure
+- Store page objects in the `/pages` directory.
+- Store tests in the `/tests` directory.
+- Use descriptive names for locators and methods.
+- Ensure all code is clean, formatted, and follows DRY principles.
+
+## Prompting Requirements
+- When generating tests, always check if a Page Object already exists before creating a new one.
+- Use `data-testid` as the preferred locator strategy.
