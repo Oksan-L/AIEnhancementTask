@@ -18,7 +18,7 @@
 
 ### TC-02: Contact Form Validation (Negative Test)
 **Preconditions:**
-- User is on the "Contact Us" page ("https://luxequality.com/contacts/").
+- User is on the "Contact Us" page (`https://luxequality.com/contacts/`).
 
 **Steps:**
 1. Leave all mandatory fields (Name, Email, Message) empty.
