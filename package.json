@@ -3,6 +3,8 @@
     "playwright": "^1.57.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.57.0"
+    "@playwright/test": "^1.57.0",
+    "cypress": "^15.8.1",
+    "dotenv": "^17.2.3"
   }
 }
