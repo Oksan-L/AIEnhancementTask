@@ -23,9 +23,9 @@ cypress/downloads/
 .DS_Store
 Thumbs.db
 
-# Cursor specific (if needed)
-.cursor/
+# Cursor specific 
+# .cursor/
 
-# Python cache (mentioned in task requirements)
+# Python cache 
 __pycache__/
 *.py[cod]
