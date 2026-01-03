@@ -41,3 +41,9 @@ alwaysApply: true
 - **No Documentation/Analysis**: Do not generate summaries, conclusion reports, analysis files, or logs unless a specific task requires it.
 - **No README updates**: Never modify the `README.md` or any other project documentation file unless directly instructed to do so.
 - The AI agent must focus solely on the automation code and the defined project structure within the `AIEnhancementTask` folder.
+
+## 8. Test Granularity and Execution
+- **One `test()` block per TC**: Every official Test Case (e.g., TC-03) must be implemented within exactly one `test()` block.
+- **Sequential Steps**: All steps, actions, and assertions for a specific Test Case must be executed sequentially inside that single block.
+- **No Fragmentation**: Do not split a single test case into multiple `test()` calls for individual links, buttons, or steps. 
+- **Reporting Accuracy**: The total number of tests reported by the Playwright runner must strictly match the number of requested Test Cases (e.g., if 4 TCs are defined, the runner must show exactly 4 tests).
